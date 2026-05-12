@@ -194,6 +194,12 @@ No
 
 
 
+
+
+
+
+
+
 </panel_attributes>
     <additional_attributes>50.0;650.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -274,7 +280,8 @@ No</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>type=decision
-센서 정상?</panel_attributes>
+센서값 정상?
+통신 상태 정상?</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -292,9 +299,9 @@ Yes</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>545</x>
+      <x>55</x>
       <y>495</y>
-      <w>125</w>
+      <w>615</w>
       <h>245</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -305,7 +312,7 @@ No
 
 
 </panel_attributes>
-    <additional_attributes>10.0;470.0;10.0;10.0;230.0;10.0</additional_attributes>
+    <additional_attributes>10.0;470.0;10.0;60.0;1050.0;60.0;1050.0;10.0;1210.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
