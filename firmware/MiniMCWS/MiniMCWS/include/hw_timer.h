@@ -9,7 +9,9 @@
 #ifndef TIMER_H_
 #define TIMER_H_
 
-ISR(TIMER1_COMPA_vect);
+#include <stdint.h>
+#include <stdbool.h>
+
 void timer1_init(void);
 uint32_t get_timer_tick(void);
 bool TIMER_HasTickElapsed(void);

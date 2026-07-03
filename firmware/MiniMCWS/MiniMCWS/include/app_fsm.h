@@ -16,9 +16,10 @@ typedef enum{
 	FSMState_SAFE_LOCK
 	
 	} FSMState_t;
+	
 
 void FSM_init(void);
 void FSM_update(void);
-FSMState_t get_FSM_State(FSMState_t state);
+FSMState_t FSM_getState(void);
 
 #endif /* APP_FSM_H_ */

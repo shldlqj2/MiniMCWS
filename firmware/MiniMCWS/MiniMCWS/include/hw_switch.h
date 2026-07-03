@@ -9,7 +9,18 @@
 #ifndef HW_SWITCH_H_
 #define HW_SWITCH_H_
 
+#include <stdint.h>
+#include <stdbool.h>
 
+typedef enum{
+	PRESS_NONE,
+	PRESS_SHORT,
+	PRESS_LONG
+} SWPress_t;
+void switch_init(void);
+void switch_update(void);
+SWPress_t switch_getPress(uint8_t sw);
+void switch_clearPress(uint8_t sw);
 
 
 
